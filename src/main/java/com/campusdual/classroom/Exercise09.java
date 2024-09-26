@@ -14,10 +14,8 @@ public class Exercise09 {
     public static void doWhileLoop(int num) {
         int i = 0;
         do{
-            while(i < num){
                 System.out.println("Entra con valor: " + i + ", sale con valor: " + (i + 1));
                 i++;
-            }
         } while(i < num);
     }
 }
